@@ -10,7 +10,7 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
-      // user.hasOne(models.space);
+      user.hasOne(models.space);
     }
   }
   user.init(
